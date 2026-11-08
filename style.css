@@ -12,7 +12,69 @@ html, body{
 }
 
 #main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: #419fb2;
+    background-color: rgb(129, 177, 150);
+}
+
+#panal{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    height: 20%;
+    width: 98%;
+    background-color: rgb(80, 168, 118);
+    border-radius: 50px;
+
+}
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.elem h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box{
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 25px;
+  color:black;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.pbtm{
+    padding: 20px;
+ width: 100%;
+ height: calc(100% - 20%);
+
+}
+
+.bubble{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(126, 88, 161);
+    color: white;
+    border-radius: 50%;
 }
