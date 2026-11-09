@@ -23,7 +23,7 @@ for (var i = 1; i <= 80; i++) {
 
 document.querySelector("#pbtm").innerHTML = clutter;
  }
- var timer = 6;
+ var timer = 60;
 function runTimer() {
      var timerint = setInterval(function() {
         if (timer > 0) {
